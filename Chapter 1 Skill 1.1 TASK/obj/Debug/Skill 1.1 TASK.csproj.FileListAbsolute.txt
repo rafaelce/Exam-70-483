@@ -1,0 +1,14 @@
+C:\Users\1008159.PMENOS.COM.BR\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\bin\Debug\Chapter 1 Skill 1.1 TASK.exe.config
+C:\Users\1008159.PMENOS.COM.BR\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\bin\Debug\Chapter 1 Skill 1.1 TASK.exe
+C:\Users\1008159.PMENOS.COM.BR\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\bin\Debug\Chapter 1 Skill 1.1 TASK.pdb
+C:\Users\1008159.PMENOS.COM.BR\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\obj\Debug\Skill 1.1 TASK.csprojResolveAssemblyReference.cache
+C:\Users\1008159.PMENOS.COM.BR\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\obj\Debug\Chapter 1 Skill 1.1 TASK.exe
+C:\Users\1008159.PMENOS.COM.BR\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\obj\Debug\Chapter 1 Skill 1.1 TASK.pdb
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Chapter 1 Skill 1.1 TASK\bin\Debug\Skill 1.1 TASK.exe.config
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Chapter 1 Skill 1.1 TASK\bin\Debug\Skill 1.1 TASK.exe
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Chapter 1 Skill 1.1 TASK\bin\Debug\Skill 1.1 TASK.pdb
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Chapter 1 Skill 1.1 TASK\obj\Debug\Skill 1.1 TASK.csprojResolveAssemblyReference.cache
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Chapter 1 Skill 1.1 TASK\obj\Debug\Skill_1._1_TASK.Properties.Resources.resources
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Chapter 1 Skill 1.1 TASK\obj\Debug\Skill 1.1 TASK.csproj.GenerateResource.Cache
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Chapter 1 Skill 1.1 TASK\obj\Debug\Skill 1.1 TASK.exe
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Chapter 1 Skill 1.1 TASK\obj\Debug\Skill 1.1 TASK.pdb

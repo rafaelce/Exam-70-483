@@ -1,0 +1,6 @@
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 PARALLEL\bin\Debug\Skill 1.1 PARALLEL.exe.config
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 PARALLEL\bin\Debug\Skill 1.1 PARALLEL.exe
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 PARALLEL\bin\Debug\Skill 1.1 PARALLEL.pdb
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 PARALLEL\obj\Debug\Skill 1.1 PARALLEL.exe
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 PARALLEL\obj\Debug\Skill 1.1 PARALLEL.pdb
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 PARALLEL\obj\Debug\Skill 1.1 PARALLEL.csprojResolveAssemblyReference.cache

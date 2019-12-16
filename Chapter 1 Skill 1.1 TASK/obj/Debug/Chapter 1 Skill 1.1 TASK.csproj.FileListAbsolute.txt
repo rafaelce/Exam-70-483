@@ -1,0 +1,6 @@
+c:\users\1008159.pmenos.com.br\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\bin\Debug\Chapter 1 Skill 1.1 TASK.exe.config
+c:\users\1008159.pmenos.com.br\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\bin\Debug\Chapter 1 Skill 1.1 TASK.exe
+c:\users\1008159.pmenos.com.br\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\bin\Debug\Chapter 1 Skill 1.1 TASK.pdb
+c:\users\1008159.pmenos.com.br\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\obj\Debug\Chapter 1 Skill 1.1 TASK.csprojResolveAssemblyReference.cache
+c:\users\1008159.pmenos.com.br\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\obj\Debug\Chapter 1 Skill 1.1 TASK.exe
+c:\users\1008159.pmenos.com.br\documents\visual studio 2015\Projects\Chapter 1 Skill 1.1 PLINQ\Chapter 1 Skill 1.1 TASK\obj\Debug\Chapter 1 Skill 1.1 TASK.pdb
