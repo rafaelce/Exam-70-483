@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.1 AWAIT-ASYNC", "AW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.1 CONCURRENT COLLECTIONS", "Skill 1.1 CONCURRENT COLLECTIONS\Skill 1.1 CONCURRENT COLLECTIONS.csproj", "{58522B23-848F-49DC-9800-DCA4D9874F7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.2 Manage Multithreading", "Skill 1.2 Manage Multithreading\Skill 1.2 Manage Multithreading.csproj", "{35497431-E886-48C8-982A-5AF34D15C685}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{58522B23-848F-49DC-9800-DCA4D9874F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58522B23-848F-49DC-9800-DCA4D9874F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58522B23-848F-49DC-9800-DCA4D9874F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35497431-E886-48C8-982A-5AF34D15C685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35497431-E886-48C8-982A-5AF34D15C685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35497431-E886-48C8-982A-5AF34D15C685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35497431-E886-48C8-982A-5AF34D15C685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
