@@ -8,3 +8,4 @@ C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\obj\Debug\Skill 1.1 CONCURRENT COLLECTIONS.pdb
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\bin\Debug\Skill 1.1 CONCURRENT COLLECTIONS.exe
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\bin\Debug\Skill 1.1 CONCURRENT COLLECTIONS.pdb
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\obj\Debug\Skill 1.1 CONCURRENT COLLECTIONS.csprojResolveAssemblyReference.cache
