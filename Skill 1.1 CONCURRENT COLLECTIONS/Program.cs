@@ -44,7 +44,6 @@ namespace Skill_1._1_CONCURRENT_COLLECTIONS
 
             });
 
-<<<<<<< HEAD
             Console.ReadKey();
 
             // Concurrent Queue
@@ -82,10 +81,6 @@ namespace Skill_1._1_CONCURRENT_COLLECTIONS
 
             Console.ReadKey();
 
-
-=======
-            write.Wait();
-
             // ConcurrentBag
             ConcurrentBag<int> bag = new ConcurrentBag<int>();
             bag.Add(42);
@@ -120,7 +115,6 @@ namespace Skill_1._1_CONCURRENT_COLLECTIONS
             Console.WriteLine($"Rafael's new age {ages["Rafael"]} ");
 
             Console.ReadKey();
->>>>>>> 67071bbe3cb3c31275be4d4fb817fbc016af44db
         }
     }
 }
