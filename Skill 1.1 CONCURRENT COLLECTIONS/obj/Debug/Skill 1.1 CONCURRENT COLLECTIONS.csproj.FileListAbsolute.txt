@@ -3,3 +3,9 @@ C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\S
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 CONCURRENT COLLECTIONS\bin\Debug\Skill 1.1 CONCURRENT COLLECTIONS.pdb
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 CONCURRENT COLLECTIONS\obj\Debug\Skill 1.1 CONCURRENT COLLECTIONS.exe
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 CONCURRENT COLLECTIONS\obj\Debug\Skill 1.1 CONCURRENT COLLECTIONS.pdb
+C:\Users\PICHAU\source\repos\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\bin\Debug\Skill 1.1 CONCURRENT COLLECTIONS.exe.config
+C:\Users\PICHAU\source\repos\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\bin\Debug\Skill 1.1 CONCURRENT COLLECTIONS.exe
+C:\Users\PICHAU\source\repos\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\bin\Debug\Skill 1.1 CONCURRENT COLLECTIONS.pdb
+C:\Users\PICHAU\source\repos\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\obj\Debug\Skill 1.1 CONCURRENT COLLECTIONS.csprojAssemblyReference.cache
+C:\Users\PICHAU\source\repos\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\obj\Debug\Skill 1.1 CONCURRENT COLLECTIONS.exe
+C:\Users\PICHAU\source\repos\Exam-70-483\Skill 1.1 CONCURRENT COLLECTIONS\obj\Debug\Skill 1.1 CONCURRENT COLLECTIONS.pdb
