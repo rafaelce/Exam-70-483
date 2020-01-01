@@ -39,7 +39,8 @@ namespace Chapter_1_Skill_1._1_PLINQ
             Console.WriteLine("\n-----------------------------------------------\n");
 
             //Exception in queries
-            try {
+            try
+            {
 
                 result = from person in people.AsParallel()
                          where CheckCity(person.City)
@@ -47,7 +48,8 @@ namespace Chapter_1_Skill_1._1_PLINQ
 
                 result.ForAll(person => Console.WriteLine(person.Name));
             }
-            catch (AggregateException ex) {
+            catch (AggregateException ex)
+            {
 
                 Console.WriteLine(ex.InnerExceptions.Count + "exceptions.");
             }
@@ -58,6 +60,12 @@ namespace Chapter_1_Skill_1._1_PLINQ
             Console.WriteLine("Finished processing. Press a key to end.");
             Console.ReadKey();
 
+            // contac string
+            //var nome = "Rafael";
+            //var sobrenome = "Cruz";
+
+            //Console.WriteLine($"Nome: {nome} \nSobrenome: {sobrenome}");
+            //Console.ReadKey();
         }
 
         public static bool CheckCity(string name)
