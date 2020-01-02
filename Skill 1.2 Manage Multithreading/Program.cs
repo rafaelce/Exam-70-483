@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Skill_1._2_Manage_Multithreading
@@ -14,13 +15,29 @@ namespace Skill_1._2_Manage_Multithreading
 
         static object sharedTotalLock = new object();
 
-        static void addRangeOfValues(int start, int end) {
+        static void addRangeOfValuesLock(int start, int end) {
             while (start < end) {
                 lock (sharedTotalLock) {
                     sharedTotal = sharedTotal + items[start];
                 }
                 start++;
             }
+        }
+
+        static void addRangeOfValuesMonitors(int start, int end)
+        {
+            while (start < end)
+            {
+                lock (sharedTotalLock)
+                {
+                    sharedTotal = sharedTotal + items[start];
+                }
+                start++;
+            }
+
+            Monitor.Enter(sharedTotalLock);
+            // bloco de código que será manipulado.
+            Monitor.Exit(sharedTotalLock);
         }
 
         static void Main(string[] args)
@@ -41,7 +58,7 @@ namespace Skill_1._2_Manage_Multithreading
                 int rs = rangeStart;
                 int re = rangeEnd;
 
-                tasks.Add(Task.Run(() => addRangeOfValues(rs, re)));
+                tasks.Add(Task.Run(() => addRangeOfValuesLock(rs, re)));
                 rangeStart = rangeEnd;
             }
 
