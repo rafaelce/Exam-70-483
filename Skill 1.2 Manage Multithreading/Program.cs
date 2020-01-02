@@ -26,18 +26,18 @@ namespace Skill_1._2_Manage_Multithreading
 
         static void addRangeOfValuesMonitors(int start, int end)
         {
+            long subTotal = 0;
+
             while (start < end)
             {
-                lock (sharedTotalLock)
-                {
-                    sharedTotal = sharedTotal + items[start];
-                }
+                subTotal = subTotal + items[start];
                 start++;
             }
 
             Monitor.Enter(sharedTotalLock);
-            // bloco de código que será manipulado.
+            sharedTotal = sharedTotal + subTotal;
             Monitor.Exit(sharedTotalLock);
+            
         }
 
         static void Main(string[] args)
