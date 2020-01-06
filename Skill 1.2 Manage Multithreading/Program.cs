@@ -73,7 +73,7 @@ namespace Skill_1._2_Manage_Multithreading
 
         }
 
-        static void addRangeOfValuesInterlock(int start, int end)
+        static void addRangeOfValuesInterLock(int start, int end)
         {
             long subTotal = 0;
 
@@ -106,7 +106,7 @@ namespace Skill_1._2_Manage_Multithreading
                 int rs = rangeStart;
                 int re = rangeEnd;
 
-                tasks.Add(Task.Run(() => addRangeOfValues(rs, re)));
+                tasks.Add(Task.Run(() => addRangeOfValuesInterLock(rs, re)));
                 rangeStart = rangeEnd;
             }
 
