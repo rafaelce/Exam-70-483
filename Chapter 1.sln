@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.1 CONCURRENT COLLEC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.2 Manage Multithreading", "Skill 1.2 Manage Multithreading\Skill 1.2 Manage Multithreading.csproj", "{35497431-E886-48C8-982A-5AF34D15C685}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.4 Action Delegate", "Skill 1.4 Action Delegate\Skill 1.4 Action Delegate.csproj", "{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{35497431-E886-48C8-982A-5AF34D15C685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35497431-E886-48C8-982A-5AF34D15C685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35497431-E886-48C8-982A-5AF34D15C685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
