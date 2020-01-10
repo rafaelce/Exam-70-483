@@ -21,8 +21,15 @@ namespace Skill_1._4_Action_Delegate
             //connect the two listener methods
             alarm.OnAlarmeRaised += AlarmListener1;
             alarm.OnAlarmeRaised += AlarmListener2;
+            alarm.OnAlarmeRaised += AlarmListener2;
 
             //raise the alarm
+            alarm.RaiseAlarm();
+            Console.WriteLine("Alarm raised");
+
+            //unsubscribing a delegate
+            alarm.OnAlarmeRaised -= AlarmListener1;
+
             alarm.RaiseAlarm();
             Console.WriteLine("Alarm raised");
 
