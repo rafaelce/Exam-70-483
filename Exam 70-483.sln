@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.1 PLINQ", "Chapter 1 Skill 1.1 PLINQ\Skill 1.1 PLINQ.csproj", "{1FD14783-7161-49C0-B9E5-18B6E8C35236}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.2 Manage Multithreading", "Skill 1.2 Manage Multithreading\Skill 1.2 Manage Multithreading.csproj", "{35497431-E886-48C8-982A-5AF34D15C685}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.4 Action Delegate", "Skill 1.4 Action Delegate\Skill 1.4 Action Delegate.csproj", "{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.5 Exceptions Handling", "Skill 1.5 Exceptions Handling\Skill 1.5 Exceptions Handling.csproj", "{A8535253-FD69-4AED-810C-1A466C6EA3AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,8 +59,15 @@ Global
 		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8535253-FD69-4AED-810C-1A466C6EA3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8535253-FD69-4AED-810C-1A466C6EA3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8535253-FD69-4AED-810C-1A466C6EA3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8535253-FD69-4AED-810C-1A466C6EA3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08B21C71-72C3-492F-9428-F915FCEC1EFF}
 	EndGlobalSection
 EndGlobal
