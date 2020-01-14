@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29519.87
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.1 PLINQ", "Chapter 1 Skill 1.1 PLINQ\Skill 1.1 PLINQ.csproj", "{1FD14783-7161-49C0-B9E5-18B6E8C35236}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.2 Manage Multithrea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.4 Action Delegate", "Skill 1.4 Action Delegate\Skill 1.4 Action Delegate.csproj", "{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.5 Exceptions Handling", "Skill 1.5 Exceptions Handling\Skill 1.5 Exceptions Handling.csproj", "{A8535253-FD69-4AED-810C-1A466C6EA3AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.5 Exceptions", "Skill 1.5 Exceptions\Skill 1.5 Exceptions.csproj", "{E4D3F3DF-011D-4C20-99B9-D0F0881FEC7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4AFB92-4D1C-4608-9452-9D42CFA538CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8535253-FD69-4AED-810C-1A466C6EA3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8535253-FD69-4AED-810C-1A466C6EA3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8535253-FD69-4AED-810C-1A466C6EA3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8535253-FD69-4AED-810C-1A466C6EA3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D3F3DF-011D-4C20-99B9-D0F0881FEC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D3F3DF-011D-4C20-99B9-D0F0881FEC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D3F3DF-011D-4C20-99B9-D0F0881FEC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D3F3DF-011D-4C20-99B9-D0F0881FEC7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
