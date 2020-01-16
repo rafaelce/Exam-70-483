@@ -96,6 +96,8 @@ namespace Skill_2._1_Value_and_Reference_Types
         /// Example of class
         /// </summary>
         class AlienClass {
+            public static int Max_Lives = 99;
+
             public int X;
             public int Y;
             public int Lives;
