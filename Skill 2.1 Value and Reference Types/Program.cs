@@ -109,6 +109,22 @@ namespace Skill_2._1_Value_and_Reference_Types
                 Lives = 3;
             }
 
+            public bool RemoveLives(int livesToRemove) {
+                this.Lives = this.Lives - livesToRemove;
+
+                if (Lives <= 0)
+                {
+                    Lives = 0;
+                    X = -1000;
+                    Y = -1000;
+
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            }
+
             public override string ToString()
             {
                 return string.Format($"x: {X} Y: {Y} Lives {Lives}");
