@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 1.1 PLINQ", "Chapter 1 Skill 1.1 PLINQ\Skill 1.1 PLINQ.csproj", "{1FD14783-7161-49C0-B9E5-18B6E8C35236}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 2.1 Value and Reference Types", "Skill 2.1 Value and Reference Types\Skill 2.1 Value and Reference Types.csproj", "{5F3F6419-97DE-43B8-8803-B63EBFC98CC1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 2.6 Generic Types", "Skill 2.6 Generic Types\Skill 2.6 Generic Types.csproj", "{EFA5CE14-6311-4320-9ACA-F0E525ECB31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension Methods", "Extension Methods\Extension Methods.csproj", "{1B507A39-D215-4155-A18A-E0412AEEB8EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{EFA5CE14-6311-4320-9ACA-F0E525ECB31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFA5CE14-6311-4320-9ACA-F0E525ECB31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFA5CE14-6311-4320-9ACA-F0E525ECB31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B507A39-D215-4155-A18A-E0412AEEB8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B507A39-D215-4155-A18A-E0412AEEB8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B507A39-D215-4155-A18A-E0412AEEB8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B507A39-D215-4155-A18A-E0412AEEB8EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{E4D3F3DF-011D-4C20-99B9-D0F0881FEC7C} = {C1BEC88F-E62B-425B-A958-F270A60F6316}
 		{5F3F6419-97DE-43B8-8803-B63EBFC98CC1} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
 		{EFA5CE14-6311-4320-9ACA-F0E525ECB31E} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
+		{1B507A39-D215-4155-A18A-E0412AEEB8EE} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08B21C71-72C3-492F-9428-F915FCEC1EFF}
