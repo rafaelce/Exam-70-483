@@ -4,3 +4,9 @@ C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\S
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 THREADS\obj\Debug\Skill 1.1 THREADS.csprojResolveAssemblyReference.cache
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 THREADS\obj\Debug\Skill 1.1 THREADS.exe
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\Skill 1.1 THREADS\obj\Debug\Skill 1.1 THREADS.pdb
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 THREADS\bin\Debug\Skill 1.1 THREADS.exe.config
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 THREADS\bin\Debug\Skill 1.1 THREADS.exe
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 THREADS\bin\Debug\Skill 1.1 THREADS.pdb
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 THREADS\obj\Debug\Skill 1.1 THREADS.csprojResolveAssemblyReference.cache
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 THREADS\obj\Debug\Skill 1.1 THREADS.exe
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\Skill 1.1 THREADS\obj\Debug\Skill 1.1 THREADS.pdb

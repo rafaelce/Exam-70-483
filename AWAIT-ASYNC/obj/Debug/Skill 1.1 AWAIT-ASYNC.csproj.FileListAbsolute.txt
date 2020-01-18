@@ -4,3 +4,9 @@ C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\A
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\AWAIT-ASYNC\obj\Debug\Skill 1.1 AWAIT-ASYNC.csprojResolveAssemblyReference.cache
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\AWAIT-ASYNC\obj\Debug\AWAIT-ASYNC.exe
 C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Chapter 1\AWAIT-ASYNC\obj\Debug\AWAIT-ASYNC.pdb
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\AWAIT-ASYNC\bin\Debug\AWAIT-ASYNC.exe.config
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\AWAIT-ASYNC\bin\Debug\AWAIT-ASYNC.exe
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\AWAIT-ASYNC\bin\Debug\AWAIT-ASYNC.pdb
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\AWAIT-ASYNC\obj\Debug\Skill 1.1 AWAIT-ASYNC.csprojResolveAssemblyReference.cache
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\AWAIT-ASYNC\obj\Debug\AWAIT-ASYNC.exe
+C:\Users\1008159.PMENOS.COM.BR\Documents\Visual Studio 2015\Projects\Exam-70-483\AWAIT-ASYNC\obj\Debug\AWAIT-ASYNC.pdb
