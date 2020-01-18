@@ -104,7 +104,6 @@ namespace Skill_1._5_Exceptions_Handling
                 throw new Exception("Something bad happened.", ex);
             }
             finally { Console.WriteLine(" Thanks for using my program."); }
-
         }
 
         static void myException()
@@ -113,9 +112,10 @@ namespace Skill_1._5_Exceptions_Handling
             {
                 throw new Exception("I think you should know that I'm feeling very depressed.");
             }
-            catch (Exception ex) { Console.WriteLine(ex.Message); }
-
-
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
