@@ -31,13 +31,25 @@ namespace Method_Overriding
                 Console.WriteLine("Hello from DoPrint in Invoice");
             }
         }
+
+        class PrePaidInvoice : Invoice
+        {
+            public override void DoPrint()
+            {
+                base.DoPrint();
+                Console.WriteLine("Hello from DoPrint in PrePaidInvoice");
+            }
+        }
+
         static void Main(string[] args)
         {
             Invoice c = new Invoice();
-
             c.GetDate();
-
             c.DoPrint();
+
+            PrePaidInvoice p = new PrePaidInvoice();
+            p.GetDate();
+            p.DoPrint();
 
             Console.ReadKey();
         }
