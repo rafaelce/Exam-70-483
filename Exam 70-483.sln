@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension Methods", "Extens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Overriding", "Method Overriding\Method Overriding.csproj", "{F80C2956-8C5C-44F4-8612-A34DDC72DA6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 2.21 Boxing and Unboxing", "Skill 2.21 Boxing and Unboxing\Skill 2.21 Boxing and Unboxing.csproj", "{D0287394-7B5F-412C-8243-469AECA83ADF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{F80C2956-8C5C-44F4-8612-A34DDC72DA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F80C2956-8C5C-44F4-8612-A34DDC72DA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F80C2956-8C5C-44F4-8612-A34DDC72DA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0287394-7B5F-412C-8243-469AECA83ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0287394-7B5F-412C-8243-469AECA83ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0287394-7B5F-412C-8243-469AECA83ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0287394-7B5F-412C-8243-469AECA83ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{EFA5CE14-6311-4320-9ACA-F0E525ECB31E} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
 		{1B507A39-D215-4155-A18A-E0412AEEB8EE} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
 		{F80C2956-8C5C-44F4-8612-A34DDC72DA6E} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
+		{D0287394-7B5F-412C-8243-469AECA83ADF} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08B21C71-72C3-492F-9428-F915FCEC1EFF}
