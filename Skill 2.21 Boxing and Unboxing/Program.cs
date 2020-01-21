@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -65,15 +66,21 @@ namespace Skill_2._21_Boxing_and_Unboxing
             //d.Banana("Hello World!");
 
             // using dynamic variables
-            dynamic n = 99;
-            d = d + 1;
+            //dynamic n = 99;
+            //d = d + 1;
 
-            Console.WriteLine(d);
+            //Console.WriteLine(d);
 
-            d = "Hello";
-            d = d + " Rafael";
+            //d = "Hello";
+            //d = d + " Rafael";
 
-            Console.WriteLine(d);
+            //Console.WriteLine(d + "\n\n");
+
+            dynamic person = new ExpandoObject();
+            person.Name = "Rafael";
+            person.Age = 31;
+
+            Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
             
             Console.ReadKey();
         }
