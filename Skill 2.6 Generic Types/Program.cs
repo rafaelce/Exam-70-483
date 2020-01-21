@@ -39,6 +39,8 @@ namespace Skill_2._6_Generic_Types
             Console.WriteLine(nameStack.Pop());
             Console.WriteLine(nameStack.Pop());
 
+
+
             Console.ReadKey();
             
         }

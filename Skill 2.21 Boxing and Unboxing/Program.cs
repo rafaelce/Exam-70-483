@@ -56,9 +56,25 @@ namespace Skill_2._21_Boxing_and_Unboxing
             Console.WriteLine($"Kilometers: {k.Distance} ");
 
             int intMiles = (int)m; // explicity convert miles to int.
-            Console.WriteLine($"Int miles: {intMiles} ");
+            Console.WriteLine($"Int miles: {intMiles} \n\n");
+
+            MessageDisplay md = new MessageDisplay();
+            md.DisplayMessage("Hello World!");
+
+            dynamic d = new MessageDisplay();
+            //d.Banana("Hello World!");
 
             Console.ReadKey();
         }
+
+        class MessageDisplay {
+
+            public void DisplayMessage(string message)
+            {
+                Console.WriteLine(message);
+            }
+        }
+
+        
     }
 }
