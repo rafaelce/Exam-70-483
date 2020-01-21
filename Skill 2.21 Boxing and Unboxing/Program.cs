@@ -65,16 +65,16 @@ namespace Skill_2._21_Boxing_and_Unboxing
             dynamic d = new MessageDisplay();
             //d.Banana("Hello World!");
 
-            // using dynamic variables
-            //dynamic n = 99;
-            //d = d + 1;
+            //using dynamic variables
+            dynamic n = 99;
+            n = n + 1;
 
-            //Console.WriteLine(d);
+            Console.WriteLine(n);
 
-            //d = "Hello";
-            //d = d + " Rafael";
+            n = "Hello";
+            n = n + " Rafael";
 
-            //Console.WriteLine(d + "\n\n");
+            Console.WriteLine(n + "\n\n");
 
             dynamic person = new ExpandoObject();
             person.Name = "Rafael";
