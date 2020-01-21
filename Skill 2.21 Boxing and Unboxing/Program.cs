@@ -64,6 +64,17 @@ namespace Skill_2._21_Boxing_and_Unboxing
             dynamic d = new MessageDisplay();
             //d.Banana("Hello World!");
 
+            // using dynamic variables
+            dynamic n = 99;
+            d = d + 1;
+
+            Console.WriteLine(d);
+
+            d = "Hello";
+            d = d + " Rafael";
+
+            Console.WriteLine(d);
+            
             Console.ReadKey();
         }
 
