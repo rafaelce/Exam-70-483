@@ -12,13 +12,17 @@ namespace Skill_2._26_COM_interopt
             public string Nome;
             private string _nameValue;
 
+            /*
+                Note that there is a C# convention  that private members of a class have identifiers
+                thet start with an underscore (_) character.
+            */
+
             public string PrivateName {
                 get {
                     return _nameValue;
                 }
                 set {
-                    if (value == "")
-                        throw new Exception("Invalid customer name.");
+                    if (value == "") { throw new Exception("Invalid customer name."); }
                     _nameValue = value;
                 }
             }
@@ -26,6 +30,8 @@ namespace Skill_2._26_COM_interopt
 
         static void Main(string[] args)
         {
+            #region Using interop   
+
             // Create the interop 
             //var excelApp = new Microsoft.Office.Interop.Excel.Application();
 
@@ -42,6 +48,8 @@ namespace Skill_2._26_COM_interopt
             // Write into two cells 
             //workSheet.Cells[ 1, "A"] = "Hello";
             //workSheet.Cells[ 1, "B"] = "from C#";
+
+            #endregion
 
             Customer c = new Customer();
             c.Nome = "Rafael";
