@@ -8,6 +8,10 @@ namespace Skill_2._26_COM_interopt
 {
     class Program
     {
+        class Customer {
+            public string Name;
+        }
+
         static void Main(string[] args)
         {
             // Create the interop 
@@ -26,7 +30,13 @@ namespace Skill_2._26_COM_interopt
             // Write into two cells 
             workSheet.Cells[ 1, "A"] = "Hello";
             workSheet.Cells[ 1, "B"] = "from C#";
-            
+
+            Customer c = new Customer();
+            c.Name = "Rafael";
+
+            Console.WriteLine($"Customer name: {c.Name}");
+
+            Console.ReadKey();
         }
     }
 }
