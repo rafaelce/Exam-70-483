@@ -8,7 +8,8 @@ namespace Skill_2._26_COM_interopt
 {
     class Program
     {
-        class Customer {
+        class Customer
+        {
             public string Nome;
             private string _nameValue;
 
@@ -17,14 +18,41 @@ namespace Skill_2._26_COM_interopt
                 thet start with an underscore (_) character.
             */
 
-            public string PrivateName {
-                get {
+            public string PrivateName
+            {
+                get
+                {
                     return _nameValue;
                 }
-                set {
+                set
+                {
                     if (value == "") { throw new Exception("Invalid customer name."); }
                     _nameValue = value;
                 }
+            }
+        }
+
+        class BankAccount
+        {
+            private decimal _accountBalance = 0;
+
+            public void PayInFunds(decimal amountPayIn)
+            {
+                _accountBalance = _accountBalance + amountPayIn;
+            }
+
+            public bool WithdrawFunds(decimal amountToWithdraw)
+            {
+                if (amountToWithdraw > _accountBalance)
+                    return false;
+
+                _accountBalance = _accountBalance - amountToWithdraw;
+                return true;
+            }
+
+            public decimal GetBalance()
+            {
+                return _accountBalance;
             }
         }
 
@@ -58,6 +86,15 @@ namespace Skill_2._26_COM_interopt
 
             c.PrivateName = "Rafael Cruz";
             Console.WriteLine($"Customer name: {c.PrivateName}");
+
+            BankAccount a = new BankAccount();
+            a.PayInFunds(50);
+            Console.WriteLine($"Pay in 50");
+            a.PayInFunds(50);
+
+            if (a.WithdrawFunds(10))
+                Console.WriteLine("Withdraw 10.");
+            Console.WriteLine($"Account balance is: {a.GetBalance()}");
 
             Console.ReadKey();
         }
