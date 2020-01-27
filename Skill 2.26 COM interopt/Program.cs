@@ -68,6 +68,11 @@ namespace Skill_2._26_COM_interopt
             Address GuarantorAddress;
         }
 
+        class Report : IPrintable
+        {
+
+        }
+
         static void Main(string[] args)
         {
             #region Using interop   
@@ -110,5 +115,9 @@ namespace Skill_2._26_COM_interopt
 
             Console.ReadKey();
         }
+    }
+
+    internal interface IPrintable
+    {
     }
 }
