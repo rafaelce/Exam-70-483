@@ -34,6 +34,12 @@ namespace Skill_2._26_COM_interopt
 
         class BankAccount
         {
+            protected class Address
+            {
+                public string FirstLine;
+                public string Postcode;
+            }
+
             private decimal _accountBalance = 0;
 
             public void PayInFunds(decimal amountPayIn)
@@ -54,6 +60,12 @@ namespace Skill_2._26_COM_interopt
             {
                 return _accountBalance;
             }
+        }
+
+        class OverdraftAccount : BankAccount
+        {
+            decimal overdraftLimit = 100;
+            Address GuarantorAddress;
         }
 
         static void Main(string[] args)
