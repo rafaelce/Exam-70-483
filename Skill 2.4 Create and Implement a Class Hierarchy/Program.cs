@@ -8,12 +8,6 @@ namespace Skill_2._4_Create_and_Implement_a_Class_Hierarchy
 {
     class Program
     {
-        interface IPrintable
-        {
-            string GetPrintableText(int pageWidth, int pageHeight);
-            string GetTitle();
-        }
-
         interface IAccount
         {
             void PayInFunds(decimal amount);
@@ -44,6 +38,12 @@ namespace Skill_2._4_Create_and_Implement_a_Class_Hierarchy
             }
         }
 
+        interface IPrintable
+        {
+            string GetPrintableText(int pageWidth, int pageHeight);
+            string GetTitle();
+        }
+
         class Report : IPrintable
         {
             public string GetPrintableText(int pageWidth, int pageHeight)
@@ -58,6 +58,10 @@ namespace Skill_2._4_Create_and_Implement_a_Class_Hierarchy
         }
         static void Main(string[] args)
         {
+            IAccount account = new BankAccount();
+            account.PayInFunds(50);
+
+            Console.WriteLine($"Balance: {account.GetBalance()}");
         }
 
 
