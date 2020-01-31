@@ -62,8 +62,22 @@ namespace Skill_2._4_Create_and_Implement_a_Class_Hierarchy
             account.PayInFunds(50);
 
             Console.WriteLine($"Balance: {account.GetBalance()}");
+
+            IAccount baby = new BabyAccount();
+            baby.PayInFunds(50);
+
+            if (baby is IAccount)
+                Console.WriteLine("\nthis object can be used as an account.");
+            else
+                Console.WriteLine("\nthis object cannot be used as an account.");
+
+
+            Console.ReadKey();
         }
 
+        public class BabyAccount : BankAccount, IAccount
+        {
 
+        }
     }
 }
