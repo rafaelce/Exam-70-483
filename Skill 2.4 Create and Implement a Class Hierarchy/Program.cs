@@ -28,13 +28,45 @@ namespace Skill_2._4_Create_and_Implement_a_Class_Hierarchy
                 _balance = _balance + amount;
             }
 
-            bool IAccount.WithdrawFunds(decimal amount)
+            public virtual bool WithdrawFunds(decimal amount)
             {
                 if (_balance < amount)
                     return false;
 
                 _balance = _balance - amount;
                 return true;
+            }
+        }
+
+        public class BabyAccount : BankAccount, IAccount
+        {
+            //public override bool WithdrawFunds(decimal amount)
+            //{
+            //    if (amount > 10)
+            //    {
+            //        return false;
+            //    }
+
+            //    if (_balance < amount)
+            //    {
+            //        return false;
+            //    }
+
+            //    _balance = _balance = amount;
+            //    return true;
+            //}
+
+            public override bool WithdrawFunds(decimal amount)
+            {
+                if (amount > 10)
+                {
+                    return false;
+                }
+                else
+                {
+                    return base.WithdrawFunds(amount);
+                }
+
             }
         }
 
@@ -75,9 +107,5 @@ namespace Skill_2._4_Create_and_Implement_a_Class_Hierarchy
             Console.ReadKey();
         }
 
-        public class BabyAccount : BankAccount, IAccount
-        {
-
-        }
     }
 }
