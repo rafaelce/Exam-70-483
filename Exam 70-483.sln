@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 2.26 COM interopt", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 2.4 Create and Implement a Class Hierarchy", "Skill 2.4 Create and Implement a Class Hierarchy\Skill 2.4 Create and Implement a Class Hierarchy.csproj", "{08515C55-151E-49F4-8A8A-C9125F35BCC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill 2.5 Reflection", "Skill 2.5 Reflection\Skill 2.5 Reflection.csproj", "{8568A098-3A1F-4922-A8F4-F2D2DB3C4AB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{08515C55-151E-49F4-8A8A-C9125F35BCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08515C55-151E-49F4-8A8A-C9125F35BCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08515C55-151E-49F4-8A8A-C9125F35BCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8568A098-3A1F-4922-A8F4-F2D2DB3C4AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8568A098-3A1F-4922-A8F4-F2D2DB3C4AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8568A098-3A1F-4922-A8F4-F2D2DB3C4AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8568A098-3A1F-4922-A8F4-F2D2DB3C4AB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +136,7 @@ Global
 		{D0287394-7B5F-412C-8243-469AECA83ADF} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
 		{E6DF53A0-7C77-4C1E-ABB8-1FFEBC7B8BC0} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
 		{08515C55-151E-49F4-8A8A-C9125F35BCC9} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
+		{8568A098-3A1F-4922-A8F4-F2D2DB3C4AB0} = {468D6FA4-D88F-4A37-8E6B-9C32799AD902}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08B21C71-72C3-492F-9428-F915FCEC1EFF}
