@@ -110,6 +110,8 @@ namespace Skill_2._4_Create_and_Implement_a_Class_Hierarchy
                 return "Report Title";
             }
         }
+
+
         static void Main(string[] args)
         {
             //IAccount account = new BankAccount();
@@ -133,8 +135,21 @@ namespace Skill_2._4_Create_and_Implement_a_Class_Hierarchy
                 Console.WriteLine(name.Current);
             }
 
+
+            using (CrucialConnection c = new CrucialConnection())
+            {
+                Console.WriteLine("Using structure");
+            }
+
             Console.ReadKey();
         }
 
+        class CrucialConnection : IDisposable
+        {
+            public void Dispose()
+            {
+                Console.WriteLine("Dispose called.");
+            }
+        }
     }
 }
