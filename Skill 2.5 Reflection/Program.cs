@@ -52,7 +52,10 @@ namespace Skill_2._5_Reflection
                 Console.WriteLine($"{member.ToString()} \n");
             }
 
+            MethodInfo setMethod = type.GetMethod("set_Name");
+            setMethod.Invoke(p, new object[] { "Fred" });
 
+            Console.WriteLine($"Name: {p.Name}");
 
             Console.ReadKey();
         }
